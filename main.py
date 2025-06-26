@@ -5,5 +5,11 @@ print(mensaje)
 for e in mensaje:
     print(e)
 
+print()
+i = 0
 for e in mensaje.replace(" ", ""):
-    print(e)
+    i += 1
+    print(e.rjust(i))
+
+
+
